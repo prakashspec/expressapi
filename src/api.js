@@ -34,7 +34,9 @@ router.get("/", (req, res) => {
 
   
 
-  res.json(global);
+  res.json({
+    hello: "hi!"
+  });
 });
 
 app.use(`/.netlify/functions/api`, router);
