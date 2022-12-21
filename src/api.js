@@ -2,9 +2,9 @@ const express = require("express");
 const serverless = require("serverless-http");
 const cors = require('cors');
 
-const doi2bib = require("./index.js");
+//const doi2bib = require("./index.js");
 
-doi2bib.verbose = 0;
+//doi2bib.verbose = 0;
 
 const app = express();
 
