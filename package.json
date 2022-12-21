@@ -7,7 +7,6 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "netlify-lambda": "^1.4.3",
-    "nets": "^3.2.0",
     "serverless-http": "^1.9.1"
   },
   "scripts": {
